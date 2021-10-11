@@ -11,8 +11,8 @@ export default class ProductService {
 
     getProducts = () => this.apiHandler.get('/getAllProducts')
     getProduct = productId => this.apiHandler.get(`/getOneProduct/${productId}`)
-    savePhone = productInfo => this.apiHandler.post('/newProduct/', productInfo)
-    editPhone = (productId, product) => this.apiHandler.put(`/editProduct/${productId}`, product)
-    deletePhone = productId => this.apiHandler.delete(`/deleteProduct/${productId}`)
+    saveProduct = productInfo => this.apiHandler.post('/newProduct/', productInfo)
+    editProduct = (productId, product) => this.apiHandler.put(`/editProduct/${productId}`, product)
+    deleteProduct = productId => this.apiHandler.delete(`/deleteProduct/${productId}`)
 
 }

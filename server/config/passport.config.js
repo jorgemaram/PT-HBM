@@ -30,7 +30,7 @@ module.exports = app => {
                     return next(null, false, { message: "Wrong user and/or password" })
                 }
                 if (!bcrypt.compareSync(password, user.password)) {
-                    return next(null, false, { message: "Wrong user and/or password" })
+                    return next(null, false, { message: "Error en el nombre del usuario y/o la contraseña" })
                 }
                 return next(null, user)
             })
