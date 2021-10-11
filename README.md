@@ -61,6 +61,7 @@ Una vez esté realizado, se conectará con la base de datos de Mongo Atlas.
 
 ### Manejo de la web
 
+- Acceder en la página <https://hb-harbest-market-app.herokuapp.com/> .
 - Algunas de las rutas están protegidas. En caso de que necesites acceder a las mismas puedes hacer inicio de sesión con el usuario `Admin` y la contraseña `1234` .
 
 ##### Tecnologías empleadas
